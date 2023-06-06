@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <title>Mannuel Technologies | Signup</title>
+</head>
+<body>
+    <nav id="main-navbar"></nav>
+    <h2 style="text-align: center; margin-top: 40px;">Sign up for Mannuel Technologies</h2>
+    <section id="support-main">
+       <form action="" id="signup" style="border-radius: 15px;">
+            <label for="name">First Name</label>
+            <input type="text" name="name" required style="border-radius: 11px;" placeholder="Enter your first name">
+
+            <label for="name">Last Name</label>
+            <input type="text" name="name" required style="border-radius: 11px;" placeholder="Enter your first name">
+
+            <label for="password">Password</label>
+            <input type="password" name="password" required minlength="8" placeholder="Enter a password" style="border-radius: 11px;">
+
+            <label for="email">Email Address</label>
+            <input type="email" name="email" placeholder="johndoe@gmail.com" required style="border-radius: 11px;">
+
+            <label for="phone">Phone Number</label>
+            <input type="phone" name="phone" required style="border-radius: 11px;" placeholder="Enter your phone number"> 
+
+            <input id="submit" type="submit" name="address" value="Sign Up" onclick="alertmsg()">
+       </form>
+    </section>
+    <script src="script.js"></script>
+    <script>
+        function alertmsg(e) {
+            alert("Signup Successful! Kindly check your gmail to complete your account setup")
+
+        }
+    </script>
+</body>
+</html>
